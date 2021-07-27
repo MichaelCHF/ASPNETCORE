@@ -1,0 +1,1143 @@
+﻿
+----------------------系统启动--------------------------
+2021-06-22 11:48:56,712 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-22 11:48:56,744 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-22 11:48:56,746 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-22 11:48:56,747 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+2021-06-22 11:49:31,163 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-06-22 11:54:35,551 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-22 11:54:35,583 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-22 11:54:35,585 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-22 11:54:35,586 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+
+----------------------系统启动--------------------------
+2021-06-22 11:57:01,593 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-22 11:57:01,661 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-22 11:57:01,663 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-22 11:57:01,665 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+
+----------------------系统启动--------------------------
+2021-06-22 12:00:25,357 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-22 12:00:25,391 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-22 12:00:25,393 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-22 12:00:25,395 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+2021-06-22 12:00:31,352 [8] INFO  WebApplication.Filters.CustormerFilterAttribute [(null)] - OnActionExecuting
+2021-06-22 12:00:35,852 [8] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-06-23 10:03:40,897 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-23 10:03:40,952 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-23 10:03:40,954 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-23 10:03:40,956 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+2021-06-23 10:04:15,611 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-06-23 10:04:15,614 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-06-23 10:05:05,658 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-06-23 10:05:05,695 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-06-23 10:05:05,697 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-06-23 10:05:05,699 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\WebApplication
+2021-06-23 10:05:11,192 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-06-23 10:05:11,197 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-14 16:00:25,952 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-14 16:00:26,498 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-14 16:00:26,501 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-14 16:00:26,505 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-14 16:00:51,035 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-14 16:00:51,038 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-14 16:01:08,332 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at WebApplication.Filters.CustomerExceptionFilter.IsAsynRequest(HttpRequest request) in D:\Project\Test\ZFStudio.Web\ZFStudio.Web\Filters\CustomerExceptionFilter.cs:line 56
+   at WebApplication.Filters.CustomerExceptionFilter.OnException(ExceptionContext context) in D:\Project\Test\ZFStudio.Web\ZFStudio.Web\Filters\CustomerExceptionFilter.cs:line 25
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+----------------------系统启动--------------------------
+2021-07-14 16:02:00,391 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-14 16:02:00,430 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-14 16:02:00,432 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-14 16:02:00,434 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-14 16:02:03,361 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-14 16:02:03,364 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-14 16:02:27,234 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-14 16:02:27,274 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-14 16:02:27,276 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-14 16:02:27,278 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-14 16:02:29,802 [8] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-14 16:02:29,810 [8] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-14 16:02:40,751 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-14 16:02:40,755 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-14 16:05:02,642 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-14 16:05:02,683 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-14 16:05:02,685 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-14 16:05:02,686 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Project\Test\ZFStudio.Web\ZFStudio.Web
+
+----------------------系统启动--------------------------
+2021-07-16 15:14:02,679 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 15:14:02,712 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 15:14:02,714 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 15:14:02,716 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 15:14:05,458 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 15:14:05,908 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-16 16:18:41,199 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 16:18:41,226 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 16:18:41,228 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 16:18:41,230 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 16:18:42,367 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 16:18:42,431 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+
+----------------------系统退出--------------------------
+
+----------------------系统启动--------------------------
+
+----------------------系统退出--------------------------
+
+----------------------系统启动--------------------------
+2021-07-16 16:51:29,853 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 16:51:29,924 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 16:51:29,925 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 16:51:29,927 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 16:51:31,690 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 16:51:31,869 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-16 16:53:02,986 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 16:53:03,016 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 16:53:03,017 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 16:53:03,019 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 16:53:04,194 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 16:53:04,262 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-16 16:56:23,371 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 16:56:23,398 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 16:56:23,399 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 16:56:23,401 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 16:56:24,043 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 16:56:24,136 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-16 16:58:05,268 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-16 16:58:05,295 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-16 16:58:05,296 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-16 16:58:05,298 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-16 16:58:05,867 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-16 16:58:05,926 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-16 16:58:36,634 [13] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - The view '~\Acount\login.cshtml' was not found. Searched locations: ~\Acount\login.cshtml
+2021-07-16 16:58:36,902 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view '~\Acount\login.cshtml' was not found. The following locations were searched:
+~\Acount\login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+----------------------系统启动--------------------------
+2021-07-19 09:44:34,228 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 09:44:34,282 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 09:44:34,283 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 09:44:34,285 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 09:44:37,538 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 09:44:37,673 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 09:45:04,931 [8] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - The view '~\Views\Acount\login.cshtml' was not found. Searched locations: ~\Views\Acount\login.cshtml
+2021-07-19 09:45:05,266 [8] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view '~\Views\Acount\login.cshtml' was not found. The following locations were searched:
+~\Views\Acount\login.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+----------------------系统启动--------------------------
+2021-07-19 09:51:59,972 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 09:52:00,001 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 09:52:00,004 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 09:52:00,007 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 09:52:01,141 [15] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 09:52:01,250 [15] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 09:52:24,802 [13] ERROR Microsoft.EntityFrameworkCore.Database.Command [(null)] - Failed executing DbCommand (225ms) [Parameters=[@p0='?' (Size = 20) (DbType = AnsiString), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100) (DbType = AnsiString), @p3='?' (Size = 30)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [UserInfo] ([UserId], [CreateTime], [Password], [UserName])
+VALUES (@p0, @p1, @p2, @p3);
+2021-07-19 09:52:25,028 [13] ERROR Microsoft.EntityFrameworkCore.Update [(null)] - An exception occurred in the database while saving changes for context type 'ZFStudio.Data.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:06d5937e-0e14-4d70-833a-74f4e8551c06
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:06d5937e-0e14-4d70-833a-74f4e8551c06
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+----------------------系统启动--------------------------
+2021-07-19 10:00:27,854 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 10:00:27,884 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 10:00:27,886 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 10:00:27,887 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 10:00:28,990 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:00:29,053 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 10:03:37,826 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 10:03:37,854 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 10:03:37,856 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 10:03:37,858 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 10:03:38,798 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:03:38,850 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:15,751 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:15,764 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:17,484 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:17,499 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:18,702 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:18,716 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:19,332 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:19,347 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:20,277 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:20,293 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:22,237 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:22,252 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:23,085 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:23,099 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:23,790 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:23,804 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:37,333 [20] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:37,348 [20] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:39,805 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:39,821 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:41,181 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:41,196 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:43,333 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:43,346 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:43,893 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:43,907 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 10:04:46,206 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 10:04:46,220 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 12:06:17,028 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 12:06:17,226 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 12:06:17,228 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 12:06:17,230 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 12:06:19,253 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 12:06:19,388 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 12:06:38,634 [15] ERROR Microsoft.EntityFrameworkCore.Database.Command [(null)] - Failed executing DbCommand (163ms) [Parameters=[@p0='?' (Size = 20) (DbType = AnsiString), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100) (DbType = AnsiString), @p3='?' (Size = 30)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [UserInfo] ([UserId], [CreateTime], [Password], [UserName])
+VALUES (@p0, @p1, @p2, @p3);
+2021-07-19 12:06:38,863 [15] ERROR Microsoft.EntityFrameworkCore.Update [(null)] - An exception occurred in the database while saving changes for context type 'ZFStudio.Data.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b0987e53-d0f2-43d8-8fa8-bf5c66c8babd
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b0987e53-d0f2-43d8-8fa8-bf5c66c8babd
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-07-19 12:06:47,785 [15] ERROR WebApplication.Filters.CustomerExceptionFilter [(null)] - Controller:Acount,Action:Register出错
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:b0987e53-d0f2-43d8-8fa8-bf5c66c8babd
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ZFStudio.Service.BaseService`1.CreateAsync(T t) in D:\Test\ZFStudio.Web\ZFStudio.Service\BaseService.cs:line 22
+   at ZFStudio.Web.Controllers.AcountController.Register(RegisterViewModel model) in D:\Test\ZFStudio.Web\ZFStudio.Web\Controllers\AcountController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-07-19 12:11:57,846 [26] ERROR WebApplication.Filters.CustomerExceptionFilter [(null)] - Controller:Acount,Action:Register出错
+System.InvalidOperationException: The instance of entity type 'UserInfo' cannot be tracked because another instance with the same key value for {'UserId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at ZFStudio.Service.BaseService`1.CreateAsync(T t) in D:\Test\ZFStudio.Web\ZFStudio.Service\BaseService.cs:line 21
+   at ZFStudio.Web.Controllers.AcountController.Register(RegisterViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+2021-07-19 12:12:11,760 [23] ERROR WebApplication.Filters.CustomerExceptionFilter [(null)] - Controller:Acount,Action:Register出错
+System.InvalidOperationException: The instance of entity type 'UserInfo' cannot be tracked because another instance with the same key value for {'UserId'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.NullableKeyIdentityMap`1.Add(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityStateAsync(EntityState entityState, Boolean acceptChanges, Boolean modifyProperties, Nullable`1 forceStateWhenUnknownKey, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityGraphAttacher.PaintActionAsync(EntityEntryGraphNode`1 node, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.EntityEntryGraphIterator.TraverseGraphAsync[TState](EntityEntryGraphNode`1 node, Func`3 handleNode, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1.AddAsync(TEntity entity, CancellationToken cancellationToken)
+   at ZFStudio.Service.BaseService`1.CreateAsync(T t) in D:\Test\ZFStudio.Web\ZFStudio.Service\BaseService.cs:line 21
+   at ZFStudio.Web.Controllers.AcountController.Register(RegisterViewModel model)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+----------------------系统启动--------------------------
+2021-07-19 12:12:39,930 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 12:12:39,960 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 12:12:39,961 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 12:12:39,963 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 12:12:41,719 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 12:12:41,763 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 12:12:55,086 [10] ERROR Microsoft.EntityFrameworkCore.Database.Command [(null)] - Failed executing DbCommand (39ms) [Parameters=[@p0='?' (Size = 20) (DbType = AnsiString), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100) (DbType = AnsiString), @p3='?' (Size = 30)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [UserInfo] ([UserId], [CreateTime], [Password], [UserName])
+VALUES (@p0, @p1, @p2, @p3);
+2021-07-19 12:12:55,147 [10] ERROR Microsoft.EntityFrameworkCore.Update [(null)] - An exception occurred in the database while saving changes for context type 'ZFStudio.Data.MyDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8391f6dc-d98f-4301-9e76-900241aa2b7d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8391f6dc-d98f-4301-9e76-900241aa2b7d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2021-07-19 12:13:00,395 [10] ERROR WebApplication.Filters.CustomerExceptionFilter [(null)] - Controller:Acount,Action:Register出错
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): 违反了 PRIMARY KEY 约束“PK_UserInfo”。不能在对象“dbo.UserInfo”中插入重复键。重复键值为 (test02)。
+语句已终止。
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__169_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__277_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:8391f6dc-d98f-4301-9e76-900241aa2b7d
+Error Number:2627,State:1,Class:14
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at ZFStudio.Service.BaseService`1.CreateAsync(T t) in D:\Test\ZFStudio.Web\ZFStudio.Service\BaseService.cs:line 22
+   at ZFStudio.Web.Controllers.AcountController.Register(RegisterViewModel model) in D:\Test\ZFStudio.Web\ZFStudio.Web\Controllers\AcountController.cs:line 34
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+
+----------------------系统启动--------------------------
+2021-07-19 12:14:25,509 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 12:14:25,541 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 12:14:25,543 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 12:14:25,546 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 12:14:26,432 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 12:14:26,501 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 12:15:25,297 [4] ERROR Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor [(null)] - The view '~\Home\Index.cshtml' was not found. Searched locations: ~\Home\Index.cshtml
+2021-07-19 12:15:25,413 [4] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view '~\Home\Index.cshtml' was not found. The following locations were searched:
+~\Home\Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+----------------------系统启动--------------------------
+2021-07-19 12:26:28,473 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 12:26:28,501 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 12:26:28,502 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 12:26:28,504 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 12:26:29,691 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 12:26:29,754 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 12:27:33,405 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 12:27:33,452 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 12:27:33,454 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 12:27:33,456 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 12:27:34,129 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 12:27:34,194 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 17:04:21,838 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 17:04:21,887 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 17:04:21,888 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 17:04:21,890 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 17:04:24,724 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:24,890 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:54,865 [17] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:54,880 [17] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:55,532 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:55,546 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:56,177 [20] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:56,190 [20] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:56,609 [17] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:56,623 [17] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:56,888 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:56,905 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:04:59,296 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:04:59,312 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 17:09:15,236 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 17:09:15,563 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 17:09:15,566 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 17:09:15,568 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 17:09:18,842 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:09:19,139 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:05,136 [5] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:05,152 [5] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:05,717 [16] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:05,734 [16] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:06,392 [5] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:06,443 [5] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:36,601 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:36,616 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:37,108 [11] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:37,124 [11] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:10:37,610 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:10:37,625 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 17:17:28,327 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 17:17:28,541 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 17:17:28,543 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 17:17:28,545 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 17:17:32,506 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:17:32,729 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-19 17:18:36,949 [11] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:18:36,994 [11] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 17:18:55,067 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 17:18:55,095 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 17:18:55,097 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 17:18:55,099 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 17:18:56,358 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:18:56,421 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-19 17:19:55,147 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-19 17:19:55,178 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-19 17:19:55,181 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-19 17:19:55,184 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-19 17:19:56,312 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-19 17:19:56,386 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:01:23,184 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:01:23,289 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:01:23,291 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:01:23,292 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:01:25,703 [5] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:01:25,878 [5] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:06:30,572 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:06:30,601 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:06:30,603 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:06:30,604 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:06:32,214 [5] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:06:32,283 [5] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:07:29,485 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:07:29,512 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:07:29,514 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:07:29,515 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:07:30,965 [15] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:07:31,032 [15] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:10:59,610 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:10:59,638 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:10:59,640 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:10:59,642 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:11:00,545 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:11:00,724 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:12:18,671 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:12:18,832 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:12:18,835 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:12:18,836 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:12:19,942 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:12:20,015 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:13:03,167 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:13:03,196 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:13:03,198 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:13:03,200 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:13:04,163 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:13:04,226 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:13:23,500 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:13:23,528 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:13:23,529 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:13:23,531 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:13:24,634 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:13:24,709 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:13:41,733 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:13:41,761 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:13:41,763 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:13:41,764 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:13:42,954 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:13:43,038 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-20 11:14:12,273 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:14:12,288 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:14:21,163 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:14:21,206 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:14:21,209 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:14:21,211 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:14:22,035 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:14:22,087 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:14:42,908 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:14:42,936 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:14:42,938 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:14:42,939 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:14:44,008 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:14:44,079 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:15:26,056 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:15:26,084 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:15:26,085 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:15:26,087 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:15:27,239 [13] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:15:27,305 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:16:01,003 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:16:01,033 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:16:01,035 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:16:01,036 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:16:01,856 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:16:01,965 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:17:26,387 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:17:26,420 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:17:26,422 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:17:26,424 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:17:27,316 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:17:27,405 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:18:23,658 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:18:23,686 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:18:23,688 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:18:23,690 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:18:24,449 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:18:24,514 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:23:45,668 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:23:45,696 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:23:45,698 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:23:45,699 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:23:47,047 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:23:47,109 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:24:06,792 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:24:06,835 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:24:06,837 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:24:06,839 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:24:07,740 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:24:07,795 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 11:25:32,019 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:25:32,048 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:25:32,049 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:25:32,051 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:25:33,166 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:25:33,237 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统退出--------------------------
+
+----------------------系统启动--------------------------
+2021-07-20 11:26:43,265 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 11:26:43,299 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 11:26:43,301 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 11:26:43,303 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 11:26:44,031 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 11:26:44,097 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:06:29,278 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:06:29,307 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:06:29,309 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:06:29,310 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:06:31,336 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:06:31,399 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:32:19,995 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:32:20,025 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:32:20,027 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:32:20,028 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:32:21,131 [7] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:32:21,186 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:33:11,163 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:33:11,193 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:33:11,195 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:33:11,196 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:33:12,189 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:33:12,284 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:34:44,153 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:34:44,193 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:34:44,195 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:34:44,197 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:34:44,902 [6] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:34:44,996 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:36:41,992 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:36:42,018 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:36:42,020 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:36:42,021 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:36:43,075 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:36:43,143 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:37:24,054 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:37:24,082 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:37:24,083 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:37:24,085 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:37:25,073 [4] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:37:25,150 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:37:58,106 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:37:58,155 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:37:58,157 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:37:58,159 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:37:58,799 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:37:58,863 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:38:21,452 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:38:21,479 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:38:21,481 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:38:21,483 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:38:22,436 [9] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:38:22,530 [9] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:38:39,708 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:38:39,737 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:38:39,739 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:38:39,741 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:38:40,706 [16] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:38:40,810 [16] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:39:33,819 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:39:33,848 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:39:33,850 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:39:33,851 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:39:34,797 [12] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:39:34,868 [12] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:42:16,662 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:42:16,690 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:42:16,692 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:42:16,693 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:42:17,786 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:42:17,851 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:42:54,846 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:42:54,875 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:42:54,876 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:42:54,878 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:42:56,022 [10] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:42:56,087 [10] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-20 12:45:45,755 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-20 12:45:45,787 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-20 12:45:45,789 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-20 12:45:45,791 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-20 12:45:48,273 [14] INFO  WebApplication.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-20 12:45:48,411 [14] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 16:21:20,202 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-21 16:21:20,274 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 16:21:20,276 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 16:21:20,278 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 16:21:22,814 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 16:21:22,968 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 16:30:30,693 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Now listening on: http://localhost:5000
+2021-07-21 16:30:30,721 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 16:30:30,723 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 16:30:30,725 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 16:30:32,189 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 16:30:32,254 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 16:43:29,114 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 16:43:29,184 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 16:43:29,186 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 16:43:29,230 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 16:43:29,298 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 17:01:43,560 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 17:01:43,605 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 17:01:43,607 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 17:01:43,640 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 17:01:43,708 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 17:02:14,369 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 17:02:14,411 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 17:02:14,413 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 17:02:14,446 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 17:02:14,513 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-21 17:04:41,923 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-21 17:04:41,969 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-21 17:04:41,971 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-21 17:04:42,009 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 17:04:42,079 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-21 17:05:09,828 [13] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-21 17:05:09,843 [13] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 15:35:57,418 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 15:35:57,776 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 15:35:57,778 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 15:35:57,920 [8] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 15:35:58,118 [8] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 15:39:25,923 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 15:39:26,054 [7] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 15:39:26,068 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 15:39:26,070 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 15:39:26,211 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 16:06:31,304 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 16:06:31,671 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 16:06:31,673 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 16:06:31,853 [5] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 16:06:31,965 [5] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 16:08:39,610 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 16:08:39,653 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 16:08:39,655 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 16:08:39,691 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 16:08:39,760 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 16:13:01,082 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 16:13:01,132 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 16:13:01,134 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 16:13:01,170 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 16:13:01,239 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+2021-07-22 16:13:08,390 [10] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view 'null' could not be located. The following locations were searched:
+/Views/Acount/null.cshtml
+/Views/Shared/null.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-22 16:13:35,660 [4] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware [(null)] - An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The layout view 'null' could not be located. The following locations were searched:
+/Views/Acount/null.cshtml
+/Views/Shared/null.cshtml
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.GetLayoutPage(ViewContext context, String executingFilePath, String layoutPath)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeResultAsync>g__Logged|21_0(ResourceInvoker invoker, IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+----------------------系统启动--------------------------
+2021-07-22 16:13:46,886 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 16:13:46,966 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 16:13:46,968 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 16:13:47,002 [7] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 16:13:47,044 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 16:53:23,955 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 16:53:24,221 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 16:53:24,223 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 16:53:24,319 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 16:53:24,494 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 17:01:20,239 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 17:01:20,282 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 17:01:20,284 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 17:01:20,319 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 17:01:20,390 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 17:09:12,552 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 17:09:12,596 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 17:09:12,598 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 17:09:12,632 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 17:09:12,702 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 17:12:58,678 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 17:12:58,722 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 17:12:58,724 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 17:12:58,758 [6] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 17:12:58,826 [6] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-22 17:20:14,208 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-22 17:20:14,251 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-22 17:20:14,254 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-22 17:20:14,288 [7] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-22 17:20:14,356 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 10:55:24,790 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 10:55:25,656 [7] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 10:55:25,832 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 10:55:25,835 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 10:55:25,963 [7] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:01:07,478 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:01:07,516 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:01:07,518 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:01:07,552 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:01:07,622 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:04:16,942 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:04:16,981 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:04:16,983 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:04:17,018 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:04:17,099 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:07:47,348 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:07:47,393 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:07:47,395 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:07:47,428 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:07:47,496 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:08:26,949 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:08:26,990 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:08:26,992 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:08:27,028 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:08:27,093 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:09:23,246 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:09:23,289 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:09:23,291 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:09:23,326 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:09:23,392 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:18:42,937 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:18:42,989 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:18:42,992 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:18:43,025 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:18:43,092 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult
+
+----------------------系统启动--------------------------
+2021-07-23 11:19:46,475 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Application started. Press Ctrl+C to shut down.
+2021-07-23 11:19:46,517 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Hosting environment: Development
+2021-07-23 11:19:46,551 [1] INFO  Microsoft.Hosting.Lifetime [(null)] - Content root path: D:\Test\ZFStudio.Web\ZFStudio.Web
+2021-07-23 11:19:46,584 [4] INFO  ZFStudio.Web.Filters.CustomerActionFilter [(null)] - OnActionExecuting
+2021-07-23 11:19:46,653 [4] INFO  WebApplication.Controllers.HomeController [(null)] - IActionResult

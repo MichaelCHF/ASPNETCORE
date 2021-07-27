@@ -1,0 +1,14 @@
+{
+  "components": [
+    {
+      "type": "ZFStudio.Service.UserService, ZFStudio.Service",
+      "services": [
+        {
+          "type": "ZFStudio.IService.IUserService,ZFStudio.IService"
+        }
+      ],
+      "instanceScope": "single-instance",
+      "injectProperties": false
+    }
+  ]
+}

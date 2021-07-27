@@ -1,0 +1,15 @@
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ZFStudio.IService.deps.json
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ZFStudio.IService.dll
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ref\ZFStudio.IService.dll
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ZFStudio.IService.pdb
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ZFStudio.Models.dll
+D:\Test\ZFStudio.Web\ZFStudio.IService\bin\Debug\net5.0\ZFStudio.Models.pdb
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.csprojAssemblyReference.cache
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.AssemblyInfoInputs.cache
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.AssemblyInfo.cs
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.csproj.CoreCompileInputs.cache
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.csproj.CopyComplete
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.dll
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ref\ZFStudio.IService.dll
+D:\Test\ZFStudio.Web\ZFStudio.IService\obj\Debug\net5.0\ZFStudio.IService.pdb

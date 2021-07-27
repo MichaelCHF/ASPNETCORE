@@ -1,0 +1,9 @@
+D:\Test\ZFStudio.Web\ZFStudio.Dto\bin\Debug\netcoreapp3.1\ZFStudio.Dto.deps.json
+D:\Test\ZFStudio.Web\ZFStudio.Dto\bin\Debug\netcoreapp3.1\ZFStudio.Dto.dll
+D:\Test\ZFStudio.Web\ZFStudio.Dto\bin\Debug\netcoreapp3.1\ZFStudio.Dto.pdb
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.csprojAssemblyReference.cache
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.AssemblyInfoInputs.cache
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.AssemblyInfo.cs
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.csproj.CoreCompileInputs.cache
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.dll
+D:\Test\ZFStudio.Web\ZFStudio.Dto\obj\Debug\netcoreapp3.1\ZFStudio.Dto.pdb

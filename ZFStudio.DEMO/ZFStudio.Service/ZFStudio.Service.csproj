@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZFStudio.Data\ZFStudio.Data.csproj" />
+    <ProjectReference Include="..\ZFStudio.IService\ZFStudio.IService.csproj" />
+    <ProjectReference Include="..\ZFStudio.Models\ZFStudio.Models.csproj" />
+  </ItemGroup>
+
+</Project>

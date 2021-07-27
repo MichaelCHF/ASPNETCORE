@@ -1,0 +1,55 @@
+﻿@model ZFStudio.Web.ViewModels.Acount.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>@ViewData["Title"]</title>
+    <link href="~/css/login.css" rel="stylesheet" />
+    <link href="~/lib/layui/css/layui.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="layui-login">
+        <form asp-action="Login" class="layui-form">
+            @Html.AntiForgeryToken()
+            @*<div class="login-wrap">*@
+                <div class="layui-card">
+                    <div class="layui-card-header">卡片面板</div>
+                    <div class="layui-card-body">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">账号：</label>
+                            <div class="layui-input-block">
+                                <input type="text" asp-for="UserId" autocomplete="off" placeholder="请输入账号" class="layui-input">
+                            </div>
+                            <span asp-validation-for="UserId" class="text-danger"></span>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">密码：</label>
+                            <div class="layui-input-block">
+                                <input type="text" asp-for="Password" autocomplete="off" placeholder="请输入账号" class="layui-input">
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="layui-form-item">
+                            <input type="checkbox" > @Html.DisplayNameFor(model => model.IsRememberMe)
+                        </div>
+                        <div class="layui-form-item">
+                            <input type="submit" value="确定" class="layui-btn layui-btn-lg layui-btn-normal" />
+                        </div>
+                    </div>
+                </div>
+            @*</div>*@
+        </form>
+
+        @section Scripts {
+            @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        }
+    </div>
+</body>
+</html>
+
+

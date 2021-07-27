@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cz/WPDHjJJTknV/W4l1ZsAgNMHiblu4wJ7OEIwIJRwKbMc+5ga/VroCUKovS6p3TWuEJSORae6PsMRE/HddUfg==",
+  "dgSpecHash": "FJfB2OsqE11qJQd1C3ysK5dNlHqwNaBA76OClWTZQchFycbJsKtenuttHMFRxr2BKxEWRiV2NqA/YA2XWywQ/g==",
   "success": true,
-  "projectFilePath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Web\\ZFStudio.Web.csproj",
+  "projectFilePath": "D:\\LocalRepository\\src\\ZFStudio.Web\\ZFStudio.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\autofac.configuration\\6.0.0\\autofac.configuration.6.0.0.nupkg.sha512",

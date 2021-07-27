@@ -5763,11 +5763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\ZFStudio.Service.csproj",
+      "projectUniqueName": "D:\\LocalRepository\\src\\ZFStudio.Service\\ZFStudio.Service.csproj",
       "projectName": "ZFStudio.Service",
-      "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\ZFStudio.Service.csproj",
+      "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Service\\ZFStudio.Service.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\obj\\",
+      "outputPath": "D:\\LocalRepository\\src\\ZFStudio.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5784,14 +5784,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Data\\ZFStudio.Data.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Data\\ZFStudio.Data.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Data\\ZFStudio.Data.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Data\\ZFStudio.Data.csproj"
             },
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj"
             },
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj"
             }
           }
         }

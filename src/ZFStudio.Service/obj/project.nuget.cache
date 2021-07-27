@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WbjrNKpc6Dpsa0rPpFT9FTcRzeaqhsy9Zx0Hw+t1she1tkTBCWVePQ/G1y5YDpS651KcAstoverI9xjLXZOYNw==",
+  "dgSpecHash": "iDXpfuJQIKWxm4BwOtbJQmqfv8jKGr3ug7zJ9UhHD20qQRWWj9iI8FVFZ1djkdJArq3fAeJ3kBVjj9CGpqmswQ==",
   "success": true,
-  "projectFilePath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\ZFStudio.Service.csproj",
+  "projectFilePath": "D:\\LocalRepository\\src\\ZFStudio.Service\\ZFStudio.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",

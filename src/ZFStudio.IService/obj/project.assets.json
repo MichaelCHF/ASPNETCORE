@@ -134,11 +134,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj",
+      "projectUniqueName": "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj",
       "projectName": "ZFStudio.IService",
-      "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj",
+      "projectPath": "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\obj\\",
+      "outputPath": "D:\\LocalRepository\\src\\ZFStudio.IService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,8 +155,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj"
             }
           }
         }

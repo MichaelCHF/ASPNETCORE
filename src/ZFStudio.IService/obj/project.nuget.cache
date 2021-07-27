@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ad7aQRIC5MMbQY5+Exs25ZS0Ac90RYJCuMyz6aZyJyaRr3PnX+7H1DlwCHKwXoZcp8ugQZeiXJQoTXGG2nYxHg==",
+  "dgSpecHash": "/iAN5vmm0Pl3L5UU7uR0LeinC4IHWQBDKL7QNmK+WMOEpuFbvLZ/6KkA7tOcCM3iqumS5UD0U6OjfWkxXtYzNw==",
   "success": true,
-  "projectFilePath": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj",
+  "projectFilePath": "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

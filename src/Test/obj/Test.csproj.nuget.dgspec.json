@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Test\\ZFStudio.Web\\Test\\Test.csproj": {}
+    "D:\\LocalRepository\\src\\Test\\Test.csproj": {}
   },
   "projects": {
-    "D:\\Test\\ZFStudio.Web\\Test\\Test.csproj": {
+    "D:\\LocalRepository\\src\\Test\\Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Test\\ZFStudio.Web\\Test\\Test.csproj",
+        "projectUniqueName": "D:\\LocalRepository\\src\\Test\\Test.csproj",
         "projectName": "Test",
-        "projectPath": "D:\\Test\\ZFStudio.Web\\Test\\Test.csproj",
+        "projectPath": "D:\\LocalRepository\\src\\Test\\Test.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Test\\ZFStudio.Web\\Test\\obj\\",
+        "outputPath": "D:\\LocalRepository\\src\\Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

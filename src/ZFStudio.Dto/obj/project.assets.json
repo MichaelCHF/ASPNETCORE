@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
+      "projectUniqueName": "D:\\LocalRepository\\src\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
       "projectName": "ZFStudio.Dto",
-      "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
+      "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\obj\\",
+      "outputPath": "D:\\LocalRepository\\src\\ZFStudio.Dto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

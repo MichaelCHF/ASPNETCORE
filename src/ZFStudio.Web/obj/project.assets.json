@@ -7766,11 +7766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\ZFStudio.Web\\ZFStudio.Web\\ZFStudio.Web.csproj",
+      "projectUniqueName": "D:\\LocalRepository\\src\\ZFStudio.Web\\ZFStudio.Web.csproj",
       "projectName": "ZFStudio.Web",
-      "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Web\\ZFStudio.Web.csproj",
+      "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Web\\ZFStudio.Web.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Web\\obj\\",
+      "outputPath": "D:\\LocalRepository\\src\\ZFStudio.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7787,17 +7787,17 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Data\\ZFStudio.Data.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Data\\ZFStudio.Data.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Data\\ZFStudio.Data.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Data\\ZFStudio.Data.csproj"
             },
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\ZFStudio.Dto.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\ZFStudio.Dto.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Dto\\ZFStudio.Dto.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Dto\\ZFStudio.Dto.csproj"
             },
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.IService\\ZFStudio.IService.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.IService\\ZFStudio.IService.csproj"
             },
-            "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\ZFStudio.Service.csproj": {
-              "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Service\\ZFStudio.Service.csproj"
+            "D:\\LocalRepository\\src\\ZFStudio.Service\\ZFStudio.Service.csproj": {
+              "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Service\\ZFStudio.Service.csproj"
             }
           }
         }

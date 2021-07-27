@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zm5H8qMpW5SyN8J+PEst+wFoSZgLKKUNsTOpYIBDRSJHl7N7HHXoSimH5Bu+JrAg6glehpeS5exo0QKaHDHQ3g==",
+  "dgSpecHash": "9DVjWP8ldlbHqH1v94LquS3YVXJVt0ZvGNGAW07L+SiCyhcB0fftv+IotxpNnjOjnhpfnbRM16M2H/rozqEHYw==",
   "success": true,
-  "projectFilePath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Data\\ZFStudio.Data.csproj",
+  "projectFilePath": "D:\\LocalRepository\\src\\ZFStudio.Data\\ZFStudio.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

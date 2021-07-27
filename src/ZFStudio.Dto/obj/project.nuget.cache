@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YTZbstgaGU+ZZWtD5q8vDYB9QZjjK1Mhk1NYWWHwqLjGBT0BJWEmWH13j2/yu0Im1Tl8jf6If669eVyzLt9khQ==",
+  "dgSpecHash": "bxT2G2rDARFA0d0H6pi04O7xt9ECPU8UVQvGidcrn9P4S4wA/6OCbdvkh2iZF2tQ3X0ho68vZt2Er+4chmvmUg==",
   "success": true,
-  "projectFilePath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
+  "projectFilePath": "D:\\LocalRepository\\src\\ZFStudio.Dto\\ZFStudio.Dto.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

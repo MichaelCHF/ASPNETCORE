@@ -116,11 +116,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj",
+      "projectUniqueName": "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj",
       "projectName": "ZFStudio.Models",
-      "projectPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\ZFStudio.Models.csproj",
+      "projectPath": "D:\\LocalRepository\\src\\ZFStudio.Models\\ZFStudio.Models.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Test\\ZFStudio.Web\\ZFStudio.Models\\obj\\",
+      "outputPath": "D:\\LocalRepository\\src\\ZFStudio.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
